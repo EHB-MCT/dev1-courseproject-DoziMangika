@@ -5,9 +5,9 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let context = canvas.getContext("2d");
 
-spacevader();
+spaceinvader();
 
-function spacevader() {
+function spaceinvader() {
     context.beginPath()
     context.fillStyle = "black"
     context.rect(50,50, 300, 300);
